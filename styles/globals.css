@@ -1,0 +1,39 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .waterDrop {
+        width: 145px;
+        height: 169px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        flex-basis: 20%;
+        z-index: 50;  
+        border-radius: 50%; 
+        border-top: 145/2 ;
+        border-left: 145/2;
+        border-bottom: 145/2;
+        border-left: 145/2;
+        border-top-right-radius: 0;
+        transform: rotate(45deg); 
+    }
+
+    .ts-doug{
+        text-shadow: 1px, 2px, 3px, rgba(0, 0, 0, 0.5)
+
+    }
+
+
+
+}
+
+@layer utilities {
+    .ts-doug{
+        box-shadow: 1px, 2px, 3px, rgba(0, 0, 0, 0.9)
+
+    }
+}
